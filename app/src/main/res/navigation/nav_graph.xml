@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.stepcounterpoc.ui.main.MainFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/action_mainFragment_to_motionSensorsFragment"
+            app:destination="@id/motionSensorsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_healthConnectFragment"
+            app:destination="@id/healthConnectFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_googleFitFragment"
+            app:destination="@id/googleFitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/motionSensorsFragment"
+        android:name="com.example.stepcounterpoc.ui.motionsensors.MotionSensorsFragment"
+        android:label="@string/motion_sensors_fragment_title"
+        tools:layout="@layout/fragment_motion_sensors">
+
+        <action
+            android:id="@+id/action_motionSensorsFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/healthConnectFragment"
+        android:name="com.example.stepcounterpoc.ui.healthconnect.HealthConnectFragment"
+        android:label="@string/health_connect_fragment_title"
+        tools:layout="@layout/fragment_health_connect">
+        <action
+            android:id="@+id/action_healthConnectFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/googleFitFragment"
+        android:name="com.example.stepcounterpoc.ui.googlefit.GoogleFitFragment"
+        android:label="GoogleFitFragment"
+        tools:layout="@layout/fragment_google_fit">
+        <action
+            android:id="@+id/action_googleFitFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>
