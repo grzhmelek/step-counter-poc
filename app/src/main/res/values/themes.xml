@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Test" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="Theme.StepCounterPoc" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/citadele_red</item>
         <item name="colorPrimaryVariant">@color/citadele_red_2</item>
@@ -14,7 +14,7 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.Test.NoActionBar">
+    <style name="Theme.StepCounterPoc.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>

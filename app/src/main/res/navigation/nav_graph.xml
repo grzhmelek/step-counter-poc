@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/mainFragment"
         android:name="com.example.stepcounterpoc.ui.main.MainFragment"
-        android:label="@string/first_fragment_label"
+        android:label="@string/title_home"
         tools:layout="@layout/fragment_main">
 
         <action
@@ -24,7 +24,7 @@
     <fragment
         android:id="@+id/motionSensorsFragment"
         android:name="com.example.stepcounterpoc.ui.motionsensors.MotionSensorsFragment"
-        android:label="@string/motion_sensors_fragment_title"
+        android:label="@string/title_motion_sensors"
         tools:layout="@layout/fragment_motion_sensors">
 
         <action
@@ -34,7 +34,7 @@
     <fragment
         android:id="@+id/healthConnectFragment"
         android:name="com.example.stepcounterpoc.ui.healthconnect.HealthConnectFragment"
-        android:label="@string/health_connect_fragment_title"
+        android:label="@string/title_health_connect"
         tools:layout="@layout/fragment_health_connect">
         <action
             android:id="@+id/action_healthConnectFragment_to_mainFragment"

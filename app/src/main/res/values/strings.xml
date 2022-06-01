@@ -1,18 +1,18 @@
 <resources>
     <string name="app_name">Step Counter PoC</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">Home</string>
-    <string name="motion_sensors_fragment_title">Motion Sensors</string>
-    <string name="health_connect_fragment_title">Health Connect</string>
-    <string name="step_counter_notification_channel_id">step_counter_channel</string>
-    <string name="notification_title">Step Counter</string>
-    <string name="step_counter_channel_description">Step counter description is here</string>
-    <string name="step_notification_channel_name">Step counter</string>
-    <string name="message_check_your_steps">Check your steps: %1$s</string>
-    <string name="stop_notifications">Stop notifications</string>
-    <string name="stop_action">Stop</string>
+
+    <string name="title_home">Home</string>
     <string name="title_motion_sensors">Motion sensors</string>
     <string name="title_health_connect">Health connect</string>
     <string name="title_google_fit">Google fit</string>
+
+    // Notifications
+    <string name="step_counter_notification_channel_id">step_counter_channel</string>
+    <string name="step_counter_channel_description">Step counter description is here</string>
+    <string name="step_notification_channel_name">Step counter</string>
+    <string name="notification_title">Step Counter</string>
+    <string name="message_check_your_steps">Check your steps: %1$s</string>
+    <string name="stop_action">Stop</string>
+
 </resources>
